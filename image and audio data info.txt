@@ -1,0 +1,11 @@
+Images are sorted into groups of pictures representing move states. Each consecutive image must be named a numerical value higher than the that of the previous state.
+
+Image Data is organized as follows:
+
+width: <in game width as number>
+SCDs: {{<leftx>, <lefty>}{<rightx>, <righty>}{<topx>,<topy>}{<botx>,<boty>}}
+frames: (<first frame>,<last frame>)
+**hitbubbles: {{<centerx>,<centery>,<radius>}(<damage>,<baseKB>,<KBScaling>,<angle>,<priority>,<SFX group)}
+**new:
+
+**indicates an optional field for states with hitbubbles - exempt if not available
